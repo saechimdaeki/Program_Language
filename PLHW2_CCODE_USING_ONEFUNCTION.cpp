@@ -28,8 +28,4 @@ struct ListNode *insertionSortList(struct ListNode *head) {
     return sorted.next;
 }
 
-int main()
-{
-	ListNode node;
-	node->val=3; node->next->val=1;
-}
+
