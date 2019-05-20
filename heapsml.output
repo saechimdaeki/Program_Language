@@ -1,0 +1,194 @@
+Script started on Mon 20 May 2019 12:28:29 PM UTC
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ env
+XDG_SESSION_ID=200
+SHELL=/bin/bash
+TERM=xterm
+SSH_CLIENT=61.99.145.95 60994 7777
+SSH_TTY=/dev/pts/0
+USER=s201414212
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+PATH=/home/s201414212/bin:/home/s201414212/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+MAIL=/var/mail/s201414212
+PWD=/home/s201414212
+LANG=en_US.UTF-8
+HOME=/home/s201414212
+SHLVL=2
+LOGNAME=s201414212
+SSH_CONNECTION=61.99.145.95 60994 203.254.143.132 7777
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+LESSOPEN=| /usr/bin/lesspipe %s
+XDG_RUNTIME_DIR=/run/user/1016
+LESSCLOSE=/usr/bin/lesspipe %s %s
+_=/usr/bin/env
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ whoami
+s201414212
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ date
+Mon May 20 12:28:39 UTC 2019
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ pwd
+/home/s201414212
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ w
+ 12:28:47 up 6 days,  9:42,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+s2014142 pts/0    61.99.145.95     12:28    6.00s  0.04s  0.00s script heapsml.output
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ ls -l
+total 632
+-rw-rw-r-- 1 s201414212 s201414212     0 Mar 18 09:29 123
+-rw-rw-r-- 1 s201414212 s201414212     0 Mar 27 08:38 a
+-rw-rw-r-- 1 s201414212 s201414212   160 May 20 08:16 bubbledown.sml
+-rw-rw-r-- 1 s201414212 s201414212   150 May 20 08:19 bubbleup.sml
+-rw-rw-r-- 1 s201414212 s201414212    75 Apr  8 07:53 cplus.c
+-rw-rw-r-- 1 s201414212 s201414212    83 Apr  6 13:19 cplustest.c
+-rw-rw-r-- 1 s201414212 s201414212   575 Apr  6 11:04 fordelete
+-rw-rw-r-- 1 s201414212 s201414212   304 Apr 19 07:12 fork.c
+-rwxrwxr-x 1 s201414212 s201414212 13088 Apr 20 05:19 [0m[01;32mgaus[0m
+-rw-rw-r-- 1 s201414212 s201414212  4072 Apr 20 05:19 gaus.c
+-rwxrwxr-x 1 s201414212 s201414212  8600 Apr  9 04:26 [01;32mh[0m
+-rw-rw-r-- 1 s201414212 s201414212     0 May 19 13:22 haeapify.sml
+-rw-rw-r-- 1 s201414212 s201414212    54 Apr  9 04:26 h.c
+-rw-rw-r-- 1 s201414212 s201414212   140 May 20 08:24 heapifydown.sml
+-rw-rw-r-- 1 s201414212 s201414212   101 May 19 13:18 heapify.sm;
+-rw-rw-r-- 1 s201414212 s201414212   104 May 20 08:19 heapify.sml
+-rw-rw-r-- 1 s201414212 s201414212     0 May 20 12:28 heapsml.output
+-rwxrwxr-x 1 s201414212 s201414212  8608 Mar 18 09:37 [01;32mhello[0m
+-rwxrwxr-x 1 s201414212 s201414212  8608 Mar 18 09:59 [01;32mhello2[0m
+-rwxrwxr-x 1 s201414212 s201414212  8608 Mar 18 10:03 [01;32mhello3[0m
+-rw-rw-r-- 1 s201414212 s201414212  4806 Mar 27 08:36 hello.c
+-rwxrwxr-x 1 s201414212 s201414212  8824 Apr  1 12:05 [01;32mhomework1[0m
+-rw-rw-r-- 1 s201414212 s201414212  2738 Apr  1 12:01 homework1.c
+-rwxrwxr-x 1 s201414212 s201414212  8744 Apr 11 07:50 [01;32mhw[0m
+-rw-rw-r-- 1 s201414212 s201414212  8510 Apr  1 12:05 hw1.output
+-rw-rw-r-- 1 s201414212 s201414212 12338 Apr 11 08:06 hw2
+-rw-rw-r-- 1 s201414212 s201414212  1160 Apr 11 07:49 hw22.c
+-rwxrwxr-x 1 s201414212 s201414212 13672 Apr 10 11:39 [01;32mhw2c[0m
+-rw-rw-r-- 1 s201414212 s201414212  4226 Apr  9 04:23 hw2.c
+-rw-rw-r-- 1 s201414212 s201414212  5653 Apr 10 11:36 hw2c.c
+-rw-rw-r-- 1 s201414212 s201414212 14179 Apr 10 11:40 hw2c.output
+-rw-rw-r-- 1 s201414212 s201414212 17969 May  9 04:05 hw2isort.output
+-rw-rw-r-- 1 s201414212 s201414212  7269 Apr 10 06:58 hw2.output
+-rwxrwxr-x 1 s201414212 s201414212 13408 May 10 00:02 [01;32mii[0m
+-rw-rw-r-- 1 s201414212 s201414212    95 May  7 09:07 ins.sml
+-rwxrwxr-x 1 s201414212 s201414212 13408 May  9 04:03 [01;32misort[0m
+-rw-rw-r-- 1 s201414212 s201414212  4899 May  9 04:03 isort.c
+-rw-rw-r-- 1 s201414212 s201414212   197 May  7 08:54 isort.sm
+-rw-rw-r-- 1 s201414212 s201414212    76 May  7 09:07 isort.sml
+-rwxrwxr-x 1 s201414212 s201414212 13408 May  9 04:05 [01;32missort[0m
+-rw-rw-r-- 1 s201414212 s201414212  1208 Apr 20 06:02 j.c
+-rw-rw-r-- 1 s201414212 s201414212  1208 Apr 20 06:02 jo.c
+-rwxrwxr-x 1 s201414212 s201414212 12992 Apr 20 06:00 [01;32mjor[0m
+-rw-rw-r-- 1 s201414212 s201414212  1204 Apr 20 06:00 jor.c
+-rwxrwxr-x 1 s201414212 s201414212 13000 Apr 20 05:59 [01;32mjordan[0m
+-rw-rw-r-- 1 s201414212 s201414212  1203 Apr 20 05:59 jordan.c
+-rw-rw-r-- 1 s201414212 s201414212   957 Apr 20 05:34 lee.c
+-rw-rw-r-- 1 s201414212 s201414212   433 Apr  6 11:05 listtest.c
+-rw-rw-r-- 1 s201414212 s201414212   173 May  7 09:00 mlhw2.sml
+-rw-rw-r-- 1 s201414212 s201414212  7878 May  7 09:11 mlisort.output
+-rwxrwxr-x 1 s201414212 s201414212  8832 Mar 24 09:33 [01;32mnewt[0m
+-rw-rw-r-- 1 s201414212 s201414212   590 Mar 24 09:35 newton.c
+-rw-rw-r-- 1 s201414212 s201414212    98 Apr 19 07:10 no
+-rwxrwxr-x 1 s201414212 s201414212  8856 Apr  8 07:48 [01;32mos[0m
+-rw-rw-r-- 1 s201414212 s201414212   292 Apr  8 07:48 ostest.c
+-rwxrwxr-x 1 s201414212 s201414212 15264 Apr 11 08:08 [01;32mplhw2[0m
+-rw-rw-r-- 1 s201414212 s201414212  1369 Apr 11 08:04 plhw2.c
+-rwxrwxr-x 1 s201414212 s201414212  8776 Apr 11 08:07 [01;32mplhw2out[0m
+-rwxrwxr-x 1 s201414212 s201414212  8776 Apr 11 08:11 [01;32mplhw2real[0m
+-rw-rw-r-- 1 s201414212 s201414212    81 Mar 24 05:15 poss
+-rwxrwxr-x 1 s201414212 s201414212  8600 Mar 24 05:15 [01;32mpossc[0m
+-rw-rw-r-- 1 s201414212 s201414212    81 Mar 24 05:15 poss.c
+-rw-rw-r-- 1 s201414212 s201414212  5869 Mar 27 09:12 p.output
+-rw-rw-r-- 1 s201414212 s201414212  2730 May  7 11:29 powerset.c
+-rw-rw-r-- 1 s201414212 s201414212   187 Apr 10 06:57 p.sml
+-rw-rw-r-- 1 s201414212 s201414212 11514 Apr 11 08:11 realhw2.output
+-rw-rw-r-- 1 s201414212 s201414212 28672 Mar 27 08:38 scripttest.c
+-rw-rw-r-- 1 s201414212 s201414212   159 May 20 08:21 swap.sml
+-rwxrwxr-x 1 s201414212 s201414212  8992 Apr  6 15:15 [01;32mtest[0m
+-rwxrwxr-x 1 s201414212 s201414212  8744 Apr 11 07:53 [01;32mtest2[0m
+-rw-rw-r-- 1 s201414212 s201414212  1163 Apr 11 07:53 test2.c
+-rwxrwxr-x 1 s201414212 s201414212  8744 Apr 11 07:56 [01;32mtest3[0m
+-rw-rw-r-- 1 s201414212 s201414212  1170 Apr 11 07:56 test3.c
+-rwxrwxr-x 1 s201414212 s201414212  8824 Apr 11 08:02 [01;32mtest4[0m
+-rw-rw-r-- 1 s201414212 s201414212  1346 Apr 11 08:02 test4.c
+-rw-rw-r-- 1 s201414212 s201414212  1158 Apr  6 15:16 test.c
+-rw-rw-r-- 1 s201414212 s201414212   366 Mar 18 09:40 test.output
+-rwxrwxr-x 1 s201414212 s201414212  8992 Apr  6 15:17 [01;32mtestt[0m
+-rw-rw-r-- 1 s201414212 s201414212   140 May  7 09:04 x.sml
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ cat swap.sml
+open Array;
+val MAX= 100;
+val A1=array(MAX+1,0);
+fun swap(i, j, A) =
+	let
+	val Ai = sub(A,i);
+	val Aj = sub(A,j);
+	in
+	 (update(A,i,Aj); update(A,j,Ai))
+	end;
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ cat bubbledown.sml
+fun bubbledown (i,A) =
+	if i<=1 then ()
+	else
+	let
+	val i2= i div 2;
+	in
+	if (sub(A,i):int) <= sub(A,i2) then
+	(swap(i,i2,A); bubbledown(i2,A))
+	else ()
+	end;	
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ cat b[Kheapifydown.sml
+fun heapifydown(nil, A,n)= A
+| heapifydown(x::xs,A,n) = (
+        update(A,n,x);
+        bubbledown(n,A);
+        heapifydown(xs,A,n+1)
+);
+
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ sml
+Standard ML of New Jersey v110.78 [built: Thu Jul 23 11:21:58 2015]
+- use "swap.sml";
+[opening swap.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+opening Array
+  type 'a array = 'a ?.array
+  type 'a vector = 'a ?.vector
+  val maxLen : int
+  val array : int * 'a -> 'a array
+  val fromList : 'a list -> 'a array
+  val tabulate : int * (int -> 'a) -> 'a array
+  val length : 'a array -> int
+  val sub : 'a array * int -> 'a
+  val update : 'a array * int * 'a -> unit
+  val vector : 'a array -> 'a vector
+  val copy : {di:int, dst:'a array, src:'a array} -> unit
+  val copyVec : {di:int, dst:'a array, src:'a vector} -> unit
+  val appi : (int * 'a -> unit) -> 'a array -> unit
+  val app : ('a -> unit) -> 'a array -> unit
+  val modifyi : (int * 'a -> 'a) -> 'a array -> unit
+  val modify : ('a -> 'a) -> 'a array -> unit
+  val foldli : (int * 'a * 'b -> 'b) -> 'b -> 'a array -> 'b
+  val foldri : (int * 'a * 'b -> 'b) -> 'b -> 'a array -> 'b
+  val foldl : ('a * 'b -> 'b) -> 'b -> 'a array -> 'b
+  val foldr : ('a * 'b -> 'b) -> 'b -> 'a array -> 'b
+  val findi : (int * 'a -> bool) -> 'a array -> (int * 'a) option
+  val find : ('a -> bool) -> 'a array -> 'a option
+  val exists : ('a -> bool) -> 'a array -> bool
+  val all : ('a -> bool) -> 'a array -> bool
+  val collate : ('a * 'a -> order) -> 'a array * 'a array -> order
+val MAX = 100 : int
+val A1 = [|0,0,0,0,0,0,0,0,0,0,0,0,...|] : int array
+val swap = fn : int * int * 'a array -> unit
+val it = () : unit
+- use "bubbledown,sml    .sml";
+[opening bubbledown.sml]
+val bubbledown = fn : int * int array -> unit
+val it = () : unit
+- use "b heapifydown.sml";
+[opening heapifydown.sml]
+val heapifydown = fn : int list * int array * int -> int array
+val it = () : unit
+- heapify( down([1,2,3,4,5,6,7,8,9,10],A1,1);
+val it = [|0,1,2,3,4,5,6,7,8,9,10,0,...|] : int array
+- 
+]0;s201414212@pl-2019: ~s201414212@pl-2019:~$ exit
+
+Script done on Mon 20 May 2019 12:30:18 PM UTC
