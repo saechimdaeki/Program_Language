@@ -96,7 +96,6 @@ PILL ILL_cons(PIL pil,  PILL pill)
 	ILL_empty->t = pill;
 	return ILL_empty;   
 }
-
 PILL ILL_conc(PILL pill1, PILL pill2)
 {
    PILL tmp = pill1;
@@ -125,20 +124,6 @@ PILL pre(int x, PILL ll)
    else	return ILL_cons(IL_cons(x,ILL_head(ll)),pre(x,ILL_tail(ll)));
 }
 
-/*
-PILL pow(PIL l) 
-{
-   PILL ps = NULL;
-
-   if (!l)
-      return ILL_cons(IL_empty, NULL);
-   else 
-   {
-       ps = pow(IL_tail(l));
-       return ILL_conc(ps, pre(IL_head(l),ps));   
-   }
-}
-*/
  IL_is_empty(PIL p)
 {
 	if(p==NULL)
@@ -182,7 +167,7 @@ int update(int arr[],int i, int v)
 	arr[i]=v;
 	return *arr; 
 }
-//////////////////////////
+///////////////////////////////////////////
 
 PIL isort(bool (*gt)(int , int ),PIL l)
 {
@@ -193,16 +178,31 @@ PIL isort(bool (*gt)(int , int ),PIL l)
 }
 void bubbleDown(int i, PIL l)
 {
+	if (i<=1)
+	return;
+	else{
+		int mid= i/2;
+		if sub(l)
+	}	
+}
+PIL heapify(PIL l1,PIL l2,int n)
+{
+;	
+}
+PIL heapsort(PIL l, int n)
+{
 	
 }
-
 
 main()
 {
 	PIL l;
-	
+	int i;	
 	l=isort(&greater_than, IL_cons(3, IL_cons(1,IL_cons(4,IL_cons(5,IL_cons(9,IL_cons(2,IL_cons(6,NULL))))))));
-	
+	int arr[5]={1,2,3,4,5};
+	update(arr,3,7);
+	for(i=0; i<5; i++)
+	printf("%d ",arr[i] );
 	IL_print(l);
 }
 
