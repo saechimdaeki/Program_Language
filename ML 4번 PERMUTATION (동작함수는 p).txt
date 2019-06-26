@@ -1,0 +1,13 @@
+fun pre(x,nil) = nil
+| pre(x,L::Ls) =(x::L)::pre(x,Ls);
+
+
+fun pr(x,[]) = []
+| pr(x,y::ys) = (x::y) :: pr(x,ys);
+
+fun pp([],[]) =[[]]
+| pp([], _) = []
+| pp(x::xs, y::ys) = pre(y,pp(ys,ys))@pp(xs,ys@[y]);
+
+fun p(L)=pp(L,L);
+

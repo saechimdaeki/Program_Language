@@ -1,0 +1,15 @@
+fun cons h t = h::t;
+
+fun map f nil = nil
+| map f (x::xs) = cons (f(x)) (map f xs);
+
+
+fun powerset2 [] = []
+| powerset2[x] = [[],[x]]
+| powerset2(x::xs) =
+let
+val ps=powerset2 xs;
+in
+ps@ (map (fn L=> x::L) ps)
+end;
+

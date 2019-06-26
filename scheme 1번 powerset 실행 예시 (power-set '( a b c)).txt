@@ -1,0 +1,9 @@
+(define (cons-each elt lists)
+  (if (null? lists) 
+      '()
+      (cons (cons elt (car lists)) (cons-each elt (cdr lists)))))
+
+(define (power-set xs)
+  (if (null? xs) 
+      '(())
+      (append (power-set (cdr xs)) (cons-each (car xs) (power-set (cdr xs))))))
